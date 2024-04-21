@@ -26,6 +26,11 @@ Prefix.init(
             type: DataTypes.BIGINT,
             allowNull: false,
         },
+        updatedBy: {
+            type: DataTypes.BIGINT,
+            allowNull: false,
+        },
+
     },
     {
         sequelize,
